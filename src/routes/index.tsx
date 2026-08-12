@@ -15,7 +15,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Cta, WHATSAPP_URL } from "@/components/lp/Cta";
+import { Cta } from "@/components/lp/Cta";
 import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.png.asset.json";
 import danielle from "@/assets/danielle.jpg.asset.json";
@@ -86,14 +86,9 @@ function Index() {
       {/* Header */}
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-7">
         <img src={logo.url} alt="Danielle Souza" className="h-11 w-auto md:h-14" />
-        <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden text-xs uppercase tracking-[0.25em] text-muted-foreground transition-colors hover:text-primary md:block"
-        >
-          Falar no WhatsApp
-        </a>
+        <Cta className="hidden !px-6 !py-3 !text-[0.7rem] md:inline-flex">
+          Quero minha landing page
+        </Cta>
       </header>
 
       {/* 1 — Hero */}
