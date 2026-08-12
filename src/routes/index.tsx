@@ -15,7 +15,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Cta, WHATSAPP_URL } from "@/components/lp/Cta";
+import { Cta } from "@/components/lp/Cta";
 import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.png.asset.json";
 import danielle from "@/assets/danielle.jpg.asset.json";
