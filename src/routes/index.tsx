@@ -16,16 +16,16 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Cta } from "@/components/lp/Cta";
-import logo from "@/assets/logo.png.asset.json";
-import hero from "@/assets/hero.png.asset.json";
-import danielle from "@/assets/danielle.jpg.asset.json";
-import p7 from "@/assets/port7.png.asset.json";
-import p9 from "@/assets/port9.png.asset.json";
-import p13 from "@/assets/port13.png.asset.json";
-import p14 from "@/assets/port14.png.asset.json";
-import p15 from "@/assets/port15.png.asset.json";
-import p16 from "@/assets/port16.png.asset.json";
-import p17 from "@/assets/port17.png.asset.json";
+const logo = { url: "/images/logo.png" };
+const hero = { url: "/images/hero.png" };
+const danielle = { url: "/images/danielle.jpg" };
+const p7 = { url: "/images/port7.png" };
+const p9 = { url: "/images/port9.png" };
+const p13 = { url: "/images/port13.png" };
+const p14 = { url: "/images/port14.png" };
+const p15 = { url: "/images/port15.png" };
+const p16 = { url: "/images/port16.png" };
+const p17 = { url: "/images/port17.png" };
 
 export const Route = createFileRoute("/")({
   component: Index,
