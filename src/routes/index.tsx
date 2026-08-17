@@ -105,9 +105,10 @@ function Index() {
             autoridade e aumentar suas conversões com design sofisticado, copy persuasiva e
             uma estrutura pensada para vender.
           </p>
-          <div className="mt-10">
+          <div className="mt-10 hidden md:block">
             <Cta>Quero minha landing page</Cta>
           </div>
+
         </div>
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="absolute -inset-6 rounded-[3rem] bg-[radial-gradient(circle_at_50%_40%,color-mix(in_oklab,var(--gold-1)_28%,transparent),transparent_65%)] blur-2xl" />
