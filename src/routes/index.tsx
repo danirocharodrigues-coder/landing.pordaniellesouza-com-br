@@ -86,9 +86,9 @@ function Index() {
       {/* Header */}
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-7">
         <img src={logo.url} alt="Danielle Souza" className="h-11 w-auto md:h-14" />
-        <Cta className="hidden !px-6 !py-3 !text-[0.7rem] md:inline-flex">
-          Quero minha landing page
-        </Cta>
+        <div className="hidden md:block">
+          <Cta className="!px-6 !py-3 !text-[0.7rem]">Quero minha landing page</Cta>
+        </div>
       </header>
 
       {/* 1 — Hero */}
