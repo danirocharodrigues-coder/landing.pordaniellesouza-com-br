@@ -84,9 +84,9 @@ function Index() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       {/* Header */}
-      <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-7">
+      <header className="mx-auto flex max-w-6xl flex-col items-center gap-5 px-6 py-7 sm:flex-row sm:justify-between">
         <img src={logo.url} alt="Danielle Souza" className="h-11 w-auto md:h-14" />
-        <Cta className="hidden !px-6 !py-3 !text-[0.7rem] md:inline-flex">
+        <Cta className="!px-6 !py-3 !text-[0.65rem] md:!text-[0.7rem]">
           Quero minha landing page
         </Cta>
       </header>
