@@ -86,9 +86,9 @@ function Index() {
       {/* Header */}
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-7">
         <img src={logo.url} alt="Danielle Souza" className="h-11 w-auto md:h-14" />
-        <div className="hidden md:block">
-          <Cta className="!px-6 !py-3 !text-[0.7rem]">Quero minha landing page</Cta>
-        </div>
+        <Cta className="hidden !px-6 !py-3 !text-[0.7rem] md:inline-flex">
+          Quero minha landing page
+        </Cta>
       </header>
 
       {/* 1 — Hero */}
@@ -105,10 +105,9 @@ function Index() {
             autoridade e aumentar suas conversões com design sofisticado, copy persuasiva e
             uma estrutura pensada para vender.
           </p>
-          <div className="mt-10 hidden md:block">
+          <div className="mt-10">
             <Cta>Quero minha landing page</Cta>
           </div>
-
         </div>
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="absolute -inset-6 rounded-[3rem] bg-[radial-gradient(circle_at_50%_40%,color-mix(in_oklab,var(--gold-1)_28%,transparent),transparent_65%)] blur-2xl" />
